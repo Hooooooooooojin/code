@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/formproc">
+        <label>x좌표:</label>
+        <input type="number" name="x" min="0" max='1' step='0.01' required><br>
+        <label>y좌표:</label>
+        <input type="number" name="y" min="0" max='1' step='0.01' required><br>
+        <hr>
+        <fieldset>
+            <legend>Type</legend>
+            <input type="radio" name="my_type" value="1"><label>슈팅 1</label><br>
+            <input type="radio" name="my_type" value="2"><label>슈팅 2</label><br>
+            <input type="radio" name="my_type" value="3"><label>슈팅 3</label><br>
+            <input type="radio" name="my_type" value="4"><label>슈팅 4</label><br>
+            <input type="radio" name="my_type" value="5"><label>슈팅 5</label><br>
+            <input type="radio" name="my_type" value="6"><label>슈팅 6</label><br>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>포지션</legend>
+            <input type="radio" name="pos" value="ST"><label>ST</label><br>
+            <input type="radio" name="pos" value="CF"><label>CF</label><br>
+            <input type="radio" name="pos" value="LW"><label>LW</label><br>
+            <input type="radio" name="pos" value="CAM"><label>CAM</label><br>
+            <input type="radio" name="pos" value="CM"><label>CM</label><br>
+            <input type="radio" name="pos" value="RW"><label>RW</label><br>
+            <input type="radio" name="pos" value="LM"><label>LM</label><br>
+            <input type="radio" name="pos" value="CDM"><label>CDM</label><br>
+            <input type="radio" name="pos" value="CB"><label>CB</label><br>
+            <input type="radio" name="pos" value="RM"><label>RM</label><br>
+            <input type="radio" name="pos" value="LB"><label>LB</label><br>
+            <input type="radio" name="pos" value="RB"><label>RB</label><br>
+            <input type="radio" name="pos" value="LWB"><label>LWB</label><br>
+            <input type="radio" name="pos" value="RWB"><label>RWB</label><br>
+            <input type="radio" name="pos" value="RF"><label>RF</label><br>
+            <input type="radio" name="pos" value="GK"><label>GK</label><br>
+        </fieldset>
+        <hr>
+        <label>골 결정력:</label>
+        <input type="number" name="gd" required><br>
+        <label>슛 파워:</label>
+        <input type="number" name="sp" required><br>
+        <label>중거리 슛:</label>
+        <input type="number" name="ms" required><br>
+        <label>위치 선정:</label>
+        <input type="number" name="ps" required><br>
+        <label>발리 슛:</label>
+        <input type="number" name="vs" required><br>
+        <label>페널티킥:</label>
+        <input type="number" name="pk" required><br>
+        <label>프리킥:</label>
+        <input type="number" name="fk" required><br>
+        <label>커브:</label>
+        <input type="number" name="curve" required><br>
+        <label>볼 컨트롤:</label>
+        <input type="number" name="bc" required><br>
+        <label>밸런스:</label>
+        <input type="number" name="balance" required><br>
+        <label>헤딩 및 점프:</label>
+        <input type="number" name="hj" required><br>
+        <label>침착성:</label>
+        <input type="number" name="calm" required><br>
+        <br>
+        <br>
+        <button>확인</button>
+    </form>
+</body>
+</html>
